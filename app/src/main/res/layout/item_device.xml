@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#161B22"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvDeviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📱 Unknown Device"
+        android:textColor="#E6EDF3"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvDeviceIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP: --"
+        android:textColor="#58A6FF"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvDeviceMac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC: --"
+        android:textColor="#8B949E"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp"/>
+</LinearLayout>
